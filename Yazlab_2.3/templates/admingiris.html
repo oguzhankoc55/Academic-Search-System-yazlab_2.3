@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}Anasayfa {% endblock %}
+
+{% block content %}
+
+<div class="container pt-5">
+<div class="d-flex my-3">
+    <form action="" method="POST">
+        <label style="font-size:2rem;" for="kullaniciAdi">kullaniciAdi</label><br>
+        <input style="font-size:2rem;" type="text" name="kullaniciAdi"><br>
+        <label style="font-size:2rem;" for="password">password</label><br>
+        <input style="font-size:2rem;" type="password" name="password"><br>
+        <button class="btn btn-primary" style="font-size:2rem;" type="submit" href="/adminhome" >giris</button>
+        
+    </form>
+
+    
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}Create {% endblock %}
+
+{% block content %}
+<section style="background-color: coral;height:100vh;">
+    <div class="container" style="height:100%;">
+        <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
+        <form action="" method="POST">
+            <label style="font-size:2rem;" for="ArastirmaciAdi">Araştırmacı Adı</label><br>
+            <input style="font-size:2rem;" type="text" name="ArastirmaciAdi"><br>
+            <label style="font-size:2rem;" for="ArastirmaciSoyadi">Araştırmacı Soyadı</label><br>
+            <input style="font-size:2rem;" type="text" name="ArastirmaciSoyadi"><br><br>
+            <button class="btn btn-primary" style="font-size:2rem;" type="submit">Gönder</button>
+            
+            
+        </form>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block title %}Create {% endblock %}
+
+{% block content %} 
+
+<section style="background-color: coral;height:100vh;">
+    <div class="container" style="height:100%;">
+        <div class="d-flex justify-content-center align-items-center" style="height: 100%;">  
+        <form action="" method="POST">
+            <label for="YayinYeri">Choose a Tur:</label>
+            <select name="YayinYeri" id="YayinYeri" >
+            {% for veriTur in YayinYeri %}
+            <option value={{veriTur}}>{{veriTur}}</option>
+            
+            {% endfor %}
+            </select><br>
+            <label for="ArastirmaciAdi">Choose a Arastirmaci:</label>
+            <select name="ArastirmaciAdi" id="ArastirmaciAdi">
+                {% for veriArastirmaci in ArastirmaciAdi %}
+                <option value={{veriArastirmaci}}>{{veriArastirmaci}}</option>
+                
+                {% endfor %}
+            </select><br>
+            <label for="YayinAdi">Choose a Yayin:</label>
+            <select name="YayinAdi" id="YayinAdi">
+                {% for veriYayin in YayinAdi %}
+                <option value={{veriYayin}}>{{veriYayin}}</option>
+                
+                {% endfor %}
+            </select><br>
+            <select name="YayinTuru" id="YayinTuru">
+                {% for yayinturu in YayinTuru %}
+                <option value={{yayinturu}}>{{yayinturu}}</option>
+                
+                {% endfor %}
+            </select><br>
+            <button class="btn btn-primary" style="font-size:2rem;" type="submit" href="/">Gönder</button>
+            
+        </form>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

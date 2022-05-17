@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block title %}Anasayfa {% endblock %}
+
+{% block content %}
+<div class="container pt-5"></div> <a class="btn btn-primary" href="/admingiris" >Admin</button></a>
+<br><br>    
+<form action="" method="POST"><label for="sec"></label>
+
+    <select name="sec" id="sec">
+      <option value="ArastirmaciAdi" > ArastirmaciAdi</option>
+      <option value="ArastirmaciSoyadi">ArastirmaciSoyadi</option>
+      <option value="YayinTuru">YayinTuru</option>
+      <option value="YayinYeri">YayinYeri</option>
+      <option value="YayinAdi">YayinAdi</option>
+      <option value="YayinYili">YayinYili</option>
+    </select>
+    <input type="text" id="fname" name="fname"><br><br>
+   
+  <input type="submit" value="Submit">
+</form><br>
+
+
+
+<h2></h2>
+
+<table>
+  <tr>
+    <th >ArastirmaciAdi</th>
+    <th>ArastirmaciSoyadi</th>
+    <th>YayinAdi</th>
+    <th>YayinYili</th>
+    <th>YayinTuru</th>
+    <th>YayinYeri</th>
+  </tr>
+  {% for veri in veriler %}
+  <tr>
+    <td><a href="/vis/{{veri['ArastirmaciAdi']}}">{{veri["ArastirmaciAdi"]}}</a></td>
+    <td>{{veri["ArastirmaciSoyadi"]}}</td>
+    <td>{{veri["YayinAdi"]}}</td>
+    <td>{{veri["YayinYili"]}}</td>
+    <td>{{veri["YayinTuru"]}}</td>
+    <td>{{veri["YayinYeri"]}}</td>
+  </tr>
+  {% endfor %}
+</table>
+
+
+{% endblock %}
