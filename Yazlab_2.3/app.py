@@ -9,7 +9,7 @@ def baglantikur():
     global uri,user,password,db_neo
     uri = "neo4j+s://7255dd1c.databases.neo4j.io:7687"
     user = "neo4j"
-    password = "6_IY0TgpQv-_up8zfi7JsSd_2Sh-piLj6ZTJsZpcKmo"
+    password = "<Your password>"
     db_neo = DB(uri, user, password)
 
 def baglantisonlandir():
