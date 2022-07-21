@@ -118,8 +118,13 @@ search:İstenilen arama türüne göre buluna sonuçları geri döner.
 
 # VI. KAYNAKÇA
 https://flask.palletsprojects.com/en/2.0.x/
+
 https://www.youtube.com 
+
 https://stackoverflow.com/
+
 https://www.geeksforgeeks.org
+
 www.w3schools.com/
+
 https://neo4j.com/docs/
