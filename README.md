@@ -88,30 +88,6 @@ search:İstenilen arama türüne göre buluna sonuçları geri döner.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # V. AKIS DIAGRAMI
 ![image](https://user-images.githubusercontent.com/58952369/180172453-6bab38ae-8cbd-47f5-9ce8-fe6bce6ffea5.png)
 
