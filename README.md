@@ -5,7 +5,7 @@
 
 
 
-# ÖZET
+# ÖZET 
 Yazılım Laboratuvarı 2 dersi 3.projesi kapsamında bir akademik arama motoru geliştirmeniz beklenmektedir. Akademik arama motoru, akademik çalışmalara ve araştırmacılara ulaşabileceğiniz bir web sayfasıdır. Bu proje ile birlikte gerçek dünya ihtiyaçlarını karşılayacak bazı yetenekler kazandırılacaktır. Bu proje ile web ve veri tabanı uygulamalarının kullanmamız ve web tabanlı bir akademik arama sayfası yapmanız beklenmektedir. Projede veri tabanı olarak Neo4j graf veri tabanı kullanılmıştır.
 
 
